@@ -14,6 +14,7 @@ export class Tab2Page implements OnInit {
   }
   async ngOnInit() {
     await this.photoService.loadSaved();
+    console.log("inicia el componente");
   }
 
 }
